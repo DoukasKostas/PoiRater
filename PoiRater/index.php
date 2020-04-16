@@ -38,16 +38,18 @@ if (isset($_POST["usr"])) {
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" type="text/css" href="w3full.css"/>
 	</head>
-	<body class="blue">
-		<div class="w3-header w3-center" style="position: absolute;top: 35%;left: 30%;right: 30%;;">
-			<h1>WELCOME TO POIRATER</h1>
-			<form name="formlog" id="formlog" action="index.php" method="post">
-			<p>Username<br><input required class="white" name="usr" id="usr" type="text"></p>
-			<p>Password<br><input required class="white" name="pass" id="pass" type="password"></p>
-			<button type="submit" id="logbtn" name="logbtn" class="w3-btn w3-center teal">login</button>
-			<a class="w3-btn w3-center blue-d3" href="home.php">Guest</a>
-			</form>	
+	<body>
+		<div class="main">
+			<div class="w3-header w3-center fadebox">
+					<h1> <span style="font-size: 28px; display:block;" >WELCOME TO</span>  POIRATER</h1>
+					<form name="formlog" id="formlog" action="index.php" method="post">
+						<p>Username<br><input required class="white" name="usr" id="usr" type="text"></p>
+						<p>Password<br><input required class="white" name="pass" id="pass" type="password"></p>
+						<button type="submit" id="logbtn" name="logbtn" class="w3-btn w3-center blue">login</button>
+						<a class="w3-btn w3-center secondary" href="home.php">Guest</a>
+					</form>	
+			</div>
 		</div>
-		</body>
+	</body>
 	</html>
 	

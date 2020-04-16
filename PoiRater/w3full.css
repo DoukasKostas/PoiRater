@@ -942,3 +942,29 @@ i.large  {font-size: 6em !important;}
     bottom: -28px;
     right: 127px;
 }
+.main{
+  width:100% !important; 
+  height: 100vh !important;
+  background-color: #000!important;
+  background-image: url('./images/andrew-coelho-aL7SA1ASVdQ-unsplash.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.secondary{
+  background-color: rgb(255, 255, 255);
+  color: #2296f3;
+  border: 3px #2296f3 solid;
+}
+.fadebox{
+    background: rgba(109, 116, 130, 0.53);
+    padding: 2em;
+    color: white;
+    position: absolute;top: 35%;left: 30%;right: 30%;
+}
+@media screen and (max-width: 955px) {
+  .fadebox {
+    width:80%;
+    right: 10%;
+    left: 10%;
+  }
+}
